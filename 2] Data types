@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int age = 19;
+    char grade = 'A';
+    string Name = "Pranjal";
+    float cgpa = 8.32f;
+    bool issafe = true;
+    double price = 100.99;
+    
+    cout << age << "\n";
+     cout << grade << "\n";
+      cout << Name << "\n";
+       cout << cgpa << "\n";
+        cout << issafe << "\n";
+         cout << price << "\n";
+    return 0;
+}
