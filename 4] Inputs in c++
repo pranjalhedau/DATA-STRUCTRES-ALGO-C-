@@ -1,0 +1,9 @@
+#include<iostream>
+using namespace std;
+int main(){
+    double price;
+    cout<< "Enter price :";
+    cin >> price;
+    cout << "Entered price by user is :" << price << "\n";
+    return 0;
+}
