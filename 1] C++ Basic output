@@ -1,0 +1,6 @@
+#include <iostream>
+using namespace std;
+int main(){
+    cout << "Pranjal\n" << "Hedau\n";
+    return 0;
+}
