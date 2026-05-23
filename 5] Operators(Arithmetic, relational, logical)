@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+int main() {
+    int a , b;
+    cout << "enter a :" ;
+    cin >> a;
+    cout << "enter b :";
+    cin >> b;
+    
+    // ARITHMETIC OPERATOR
+    cout << "sum : " << (a+b) << "\n";
+    cout << "difference : " << (a-b) << "\n";
+    cout << "product : " << (a*b) << "\n";
+    cout << "division : " << (a/b) << "\n";
+    cout << "remainder : " << (a%b) << "\n";
+    
+    //RELATIONAL OPERATOR (GIVES BOOLEAN AS A OUTPUT)
+    cout << (a<b) << "\n";
+    cout << (a<=b) << "\n";
+    cout << (a>b) << "\n";
+    cout << (a>=b) << "\n";
+    cout << (a==b) << "\n";
+    cout << (a!=b) << "\n";
+    
+    //LOGICAL OPERATORS
+    cout << !(a==b) << "\n"; //reverse the answer 
+    return 0;
+}
