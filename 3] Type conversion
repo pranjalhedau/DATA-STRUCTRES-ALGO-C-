@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main(){
+    //1st example(implicit type conversion)
+    float num= 100.99f;
+    double num1 = num;
+    //2nd example 
+    char grade = 'a';
+    int grade1 = grade;
+    cout << num1 << "\n";
+    cout << grade1 << "\n";
+    
+    //1st ex (explicit tye conversion)
+    double price = 100.99;
+    int price1 = (int)price;
+    //2nd ex
+    int age = 67;
+    char age1 = char(age);
+    cout<<price1<<"\n";
+    cout<<age1<<"\n";
+    return 0;
+}
