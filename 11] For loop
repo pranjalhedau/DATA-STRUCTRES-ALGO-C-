@@ -1,0 +1,13 @@
+//PRINTING NUMBER 1 TO N USING FOR LOOP
+
+#include<iostream>
+using namespace std;
+int main (){
+    int n;
+    cout <<"Enter n:" ;
+    cin >> n;
+    for (int i=1 ;i<=n;i++){
+        cout<< i << "\n";
+    }
+    return 0;
+}
