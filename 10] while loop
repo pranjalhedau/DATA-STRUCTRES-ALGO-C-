@@ -1,0 +1,16 @@
+//PRINTING NUMBER 1 TO N USING WHILE LOOP
+
+#include<iostream>
+using namespace std;
+int main (){
+    int n;
+    int i = 1;
+    cout << "Enter the number n :";
+    cin>> n;
+    
+    while(i<=n){
+        cout<< i << "\n";
+        i++;
+    }
+    return 0;
+}
