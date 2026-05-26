@@ -1,0 +1,13 @@
+//FUNCTIONs
+
+#include<iostream>
+using namespace std;
+
+void Printhello(){
+    cout<< "Hello\n";
+
+}
+int main(){
+    Printhello();
+    return 0;
+}
