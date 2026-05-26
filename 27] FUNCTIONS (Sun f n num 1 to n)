@@ -1,0 +1,21 @@
+//FUNCTIONS SUM OF 1 TO N NUM 
+
+
+
+#include<iostream>
+using namespace std;
+
+//define the function 
+
+int SumOfn(int n){
+    int sum=0;
+    for(int i=1;i<=n;i++){
+        sum = sum + i;
+    }
+    return sum;
+}
+int main(){
+    SumOfn(52);
+    cout << SumOfn(10) ;
+    return 0;
+}
