@@ -1,0 +1,11 @@
+//FUNCTIONs SUM
+
+#include<iostream>
+using namespace std;
+int Sumoftwo(int a, int b){
+    int sum = a+b;
+    return sum;
+}
+int main(){
+    cout << "Sum = " << Sumoftwo(5,5) << endl;
+}
